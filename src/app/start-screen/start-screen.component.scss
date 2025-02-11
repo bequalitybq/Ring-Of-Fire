@@ -1,0 +1,22 @@
+.start-screen {
+    background-image: url('/assets/img/start-screen.png');
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label-start {
+    width: 800px;
+    transition: ease-in-out 150ms;
+    &:hover {
+        filter: brightness(110%);
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+}
